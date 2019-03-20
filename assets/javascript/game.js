@@ -28,7 +28,7 @@ var randomNumberGenerator = function(min, max) {
    return Math.floor(Math.random() * (max - min) + min);
 }
 
-var appendVal = function () {
+var appendVal = function (crystals) {
     playerScore = playerScore + crystals.value;
 
     $("#playerScore").html(playerScore);
