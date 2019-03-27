@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crystal Collector</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"> Crystal Collector</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+          total score.</p>
+
+        <p>You win the game by matching your total score to the random number, you lose the game if yout total score
+          goes above the random number.</p>
+
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+        <p>Each time when the game starts, the game will change the valluse of each crystal.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h2 id="targetScore"></h2>
+      </div>
+      <div class="col-sm-3">
+        <h2 id="win-counter">Wins: </h2>
+        <h2 id="loss-counter">Losses: </h2>
+          <h3 id="textWinOrLoss"></h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <img id="bluecrystal" src="assets/images/bluecrystal.png">
+        <img id="redcrystal" src="assets/images/redcrystal.png">
+        <img id="greencrystal" src="assets/images/greencrystal.png">
+        <img id="yellowcrystal" src="assets/images/yellowcrystal.png">
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>Your Score</h2>
+          </div>
+          <div class="card-body">
+            <p id="playerScore">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
